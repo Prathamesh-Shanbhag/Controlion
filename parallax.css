@@ -125,11 +125,11 @@ ul {
   -webkit-transform-origin: 50% 90%;
   -moz-transform-origin: 50% 90%;
   transform-origin: 50% 90%;
-  -webkit-animation: lighthouse 4s 0.1s infinite alternate
+  -webkit-animation: lighthouse 3s 0.1s infinite alternate-reverse
     cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  -moz-animation: lighthouse 4s 0.1s infinite alternate
+  -moz-animation: lighthouse 3s 0.1s infinite alternate-reverse
     cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  animation: lighthouse 4s 0.1s infinite alternate
+  animation: lighthouse 3s 0.1s infinite alternate-reverse
     cubic-bezier(0.455, 0.03, 0.515, 0.955);
   margin: 0px -64px;
   background-size: contain;
@@ -151,7 +151,8 @@ ul {
     cubic-bezier(0.455, 0.03, 0.515, 0.955);
   -moz-animation: lighthouse 4s 0.1s infinite alternate
     cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  animation: lighthouse 4s 0.1s infinite alternate;
+  animation: lighthouse 4s 0.1s infinite alternate
+    cubic-bezier(0.455, 0.03, 0.515, 0.955);
   margin: 0px -64px;
   background-size: contain;
   min-height: 300px;
@@ -161,7 +162,7 @@ ul {
   background-image: url(./img/smart_light.png);
   bottom: 4%;
   position: absolute;
-  right: 15%;
+  right: 20%;
 }
 .echo_dot {
   -webkit-transform-origin: 50% 90%;
@@ -171,10 +172,11 @@ ul {
     cubic-bezier(0.455, 0.03, 0.515, 0.955);
   -moz-animation: lighthouse 4s 0.1s infinite alternate
     cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  animation: lighthouse 4s 0.1s infinite alternate;
+  animation: lighthouse 4s 0.1s infinite alternate
+    cubic-bezier(0.455, 0.03, 0.515, 0.955);
   margin: 0px -64px;
   background-size: contain;
-  min-height: 500px;
+  min-height: 490px;
   width: 600px;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -187,11 +189,11 @@ ul {
   -webkit-transform-origin: 50% 90%;
   -moz-transform-origin: 50% 90%;
   transform-origin: 50% 90%;
-  -webkit-animation: lighthouse 8s 0.1s infinite alternate
+  -webkit-animation: lighthouse 6s 0.1s infinite alternate-reverse
     cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  -moz-animation: lighthouse 2s 0.1s infinite alternate
+  -moz-animation: lighthouse 4s 0.1s infinite alternate-reverse
     cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  animation: lighthouse 5s 0.1s infinite alternate;
+  animation: lighthouse 4s 0.1s infinite alternate-reverse;
   margin: 0px -64px;
   background-size: contain;
   min-height: 400px;
@@ -207,11 +209,11 @@ ul {
   -webkit-transform-origin: 50% 90%;
   -moz-transform-origin: 50% 90%;
   transform-origin: 50% 90%;
-  -webkit-animation: lighthouse 4s 0.1s infinite alternate
+  -webkit-animation: lighthouse 4s 0.5s infinite alternate
     cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  -moz-animation: lighthouse 4s 0.1s infinite alternate
+  -moz-animation: lighthouse 4s 0.5s infinite alternate
     cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  animation: lighthouse 4s 0.1s infinite alternate
+  animation: lighthouse 4s 0.5s infinite alternate
     cubic-bezier(0.455, 0.03, 0.515, 0.955);
   margin: 0px -64px;
   background-size: contain;
@@ -240,19 +242,19 @@ ul {
   background-repeat: no-repeat;
   background-color: transparent;
   background-image: url(./img/smart_switch.png);
-  bottom: 8%;
+  bottom: 10%;
   position: absolute;
-  right: 8%;
+  right: 9%;
 }
 .smart_bot {
   -webkit-transform-origin: 50% 90%;
   -moz-transform-origin: 50% 90%;
   transform-origin: 50% 90%;
-  -webkit-animation: lighthouse 8s 0.1s infinite alternate
+  -webkit-animation: lighthouse 6s 0.1s infinite alternate-reverse
     cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  -moz-animation: lighthouse 2s 0.1s infinite alternate
+  -moz-animation: lighthouse 4s 0.1s infinite alternate-reverse
     cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  animation: lighthouse 5s 0.1s infinite alternate;
+  animation: lighthouse 4s 0.1s infinite alternate-reverse;
   margin: 0px -64px;
   background-size: contain;
   min-height: 300px;

@@ -25,7 +25,7 @@
 }
 .content__title {
   font-family: 'Playfair Display', serif;
-  font-size: 8vw;
+  font-size: 6vw;
   margin: 0;
   position: relative;
   font-weight: normal;
@@ -286,7 +286,7 @@
   }
 
   .grim__item-desc {
-    font-size: 0.85rem;
+    font-size: 1rem;
     margin: 0.5rem 0 0 0;
   }
 

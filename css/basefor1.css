@@ -179,6 +179,7 @@ body {
   color: #57585c;
   color: var(--color-text);
   background: #fff;
+  background: var(--color-bg);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -331,9 +332,9 @@ main {
   align-items: center;
 }
 
-/* .content--switch {
+.content--switch {
   padding: 2.5rem 1rem;
-} */
+}
 
 .demo--current {
   opacity: 0.5;

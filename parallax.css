@@ -92,7 +92,7 @@ ul {
     cubic-bezier(0.455, 0.03, 0.515, 0.955);
   margin: 0px -64px;
   background-size: contain;
-  height: 150px;
+  height: 300px;
   width: 560px;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -117,9 +117,9 @@ ul {
   background-repeat: no-repeat;
   background-color: transparent;
   background-image: url(./img/mini.png);
-  bottom: 12%;
+  bottom: 15%;
   position: absolute;
-  left: 20%;
+  left: 28%;
 }
 .nest_cam {
   -webkit-transform-origin: 50% 90%;
@@ -140,9 +140,29 @@ ul {
   background-image: url(./img/nest_cam.png);
   bottom: 100px;
   position: absolute;
-  left: 95%;
+  left: 87%;
 }
 
+.smart_light {
+  -webkit-transform-origin: 50% 90%;
+  -moz-transform-origin: 50% 90%;
+  transform-origin: 50% 90%;
+  -webkit-animation: lighthouse 4s 0.1s infinite alternate
+    cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-animation: lighthouse 4s 0.1s infinite alternate
+    cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation: lighthouse 4s 0.1s infinite alternate;
+  margin: 0px -64px;
+  background-size: contain;
+  min-height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(./img/smart_light.png);
+  bottom: 4%;
+  position: absolute;
+  right: 15%;
+}
 .echo_dot {
   -webkit-transform-origin: 50% 90%;
   -moz-transform-origin: 50% 90%;
@@ -161,7 +181,88 @@ ul {
   background-image: url(./img/echo_dot.png);
   bottom: 4%;
   position: absolute;
-  left: 20%;
+  left: 30%;
+}
+.smart_lock {
+  -webkit-transform-origin: 50% 90%;
+  -moz-transform-origin: 50% 90%;
+  transform-origin: 50% 90%;
+  -webkit-animation: lighthouse 8s 0.1s infinite alternate
+    cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-animation: lighthouse 2s 0.1s infinite alternate
+    cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation: lighthouse 5s 0.1s infinite alternate;
+  margin: 0px -64px;
+  background-size: contain;
+  min-height: 400px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(./img/smart_lock.png);
+  bottom: 4%;
+  position: absolute;
+  left: -15%;
+}
+.speaker {
+  -webkit-transform-origin: 50% 90%;
+  -moz-transform-origin: 50% 90%;
+  transform-origin: 50% 90%;
+  -webkit-animation: lighthouse 4s 0.1s infinite alternate
+    cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-animation: lighthouse 4s 0.1s infinite alternate
+    cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation: lighthouse 4s 0.1s infinite alternate
+    cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  margin: 0px -64px;
+  background-size: contain;
+  min-height: 300px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(./img/speaker.png);
+  bottom: 15%;
+  position: absolute;
+  left: 45%;
+}
+.smart_switch {
+  -webkit-transform-origin: 50% 90%;
+  -moz-transform-origin: 50% 90%;
+  transform-origin: 50% 90%;
+  -webkit-animation: lighthouse 4s 0.1s infinite alternate
+    cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-animation: lighthouse 4s 0.1s infinite alternate
+    cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation: lighthouse 4s 0.1s infinite alternate;
+  margin: 0px -64px;
+  background-size: contain;
+  min-height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(./img/smart_switch.png);
+  bottom: 8%;
+  position: absolute;
+  right: 8%;
+}
+.smart_bot {
+  -webkit-transform-origin: 50% 90%;
+  -moz-transform-origin: 50% 90%;
+  transform-origin: 50% 90%;
+  -webkit-animation: lighthouse 8s 0.1s infinite alternate
+    cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-animation: lighthouse 2s 0.1s infinite alternate
+    cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation: lighthouse 5s 0.1s infinite alternate;
+  margin: 0px -64px;
+  background-size: contain;
+  min-height: 300px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(./img/smart_bot.png);
+  bottom: 12%;
+  position: absolute;
+  left: 0%;
 }
 
 .wave {

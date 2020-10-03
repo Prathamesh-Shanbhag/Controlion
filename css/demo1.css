@@ -8,7 +8,45 @@
   --color-link-hover: #949494;
   --color-info: #f0f0f0;
 }
-
+.dot_title {
+  animation: colour 10s infinite alternate
+    cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+@keyframes colour {
+  0% {
+    color: #fff;
+  }
+  10% {
+    color: #f8d05d;
+  }
+  20% {
+    color: #da3b35;
+  }
+  30% {
+    color: #f102d2;
+  }
+  40% {
+    color: #4600f2;
+  }
+  50% {
+    color: #f8d15b;
+  }
+  60% {
+    color: #4caf50;
+  }
+  70% {
+    color: #1bdde6;
+  }
+  80% {
+    color: #da3b35;
+  }
+  90% {
+    color: #4600f1;
+  }
+  100% {
+    color: #f8d05d;
+  }
+}
 .content__title {
   font-size: 2rem;
   margin: 0;

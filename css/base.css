@@ -91,9 +91,7 @@ sup {
 sub {
   bottom: -0.25em;
 }
-img {
-  border: 0;
-}
+
 svg:not(:root) {
   overflow: hidden;
 }
@@ -303,7 +301,8 @@ main {
 }
 
 .main-header__title {
-  font-size: 1em;
+  color: #fff;
+  font-size: 0.8rem;
   font-weight: bold;
   margin: 0;
   padding: 0.75em 0;

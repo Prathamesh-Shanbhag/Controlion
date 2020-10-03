@@ -330,10 +330,18 @@ main {
   align-items: center;
 }
 
-/* .content--switch {
-  padding: 2.5rem 1rem;
-} */
-
+.view_h {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.view_main {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .demo--current {
   opacity: 0.5;
 }

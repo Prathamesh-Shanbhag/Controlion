@@ -1,7 +1,5 @@
-/* CSS rules are kept repetitive so that you can get CSS rules for each button easily :) */
-
 #app-cover {
-  display: table;
+  position: relative;
   width: 600px;
   margin: 80px auto;
   counter-reset: button-counter;

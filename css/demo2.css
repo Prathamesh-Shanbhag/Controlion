@@ -23,6 +23,13 @@
   font-weight: 200;
   color: #fff;
 }
+.content__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 8vw;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
 
 .content__subtitle {
   font-size: 1.45rem;
@@ -48,7 +55,7 @@
 }
 
 .content--switch {
-  background-size: cover;
+  background: center/cover no-repeat fixed;
 }
 
 .content--switch::after {

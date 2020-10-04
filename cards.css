@@ -49,7 +49,7 @@
   top: -15px;
   left: -15px;
   width: 15px;
-  height: 50%;
+  height: 100%;
   background: #00c0f6;
   transform-origin: left;
   transform: skewY(45deg);
